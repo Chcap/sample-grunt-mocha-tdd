@@ -8,7 +8,7 @@ To launch tests:
 grunt test
 ```
 
-To launch tests automatically after source ou test file modification:
+To launch tests automatically after source or test file modification:
 ```
 grunt autotest
 ```
@@ -23,7 +23,7 @@ To launch tests with cucumber (bdd):
 grunt cucumberjs
 ```
 
-To launch cucumber tests automatically after source ou test file modification:
+To launch cucumber tests automatically after source or test file modification:
 ```
 grunt autocucu
 ```
