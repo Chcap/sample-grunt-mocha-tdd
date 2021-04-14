@@ -7,31 +7,30 @@ This is a sample project to do TDD/BDD (in coding dojo for example) with a javas
 To install
 ```
 npm install
-npm install -g grunt-cli
 ```
 
 
 To launch tests:
 ```
-grunt test
+npm test
 ```
 
 To launch tests automatically after source or test file modification:
 ```
-grunt autotest
+npm autotest
 ```
 
 To launch tests with coverage:
 ```
-grunt coverage
+npm coverage
 ```
 
 To launch tests with cucumber (bdd):
 ```
-grunt cucumberjs
+npm cucumberjs
 ```
 
 To launch cucumber tests automatically after source or test file modification:
 ```
-grunt autocucu
+npm autocucu
 ```

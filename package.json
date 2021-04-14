@@ -2,6 +2,13 @@
   "name": "node-mocha-tdd",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "test": "grunt test",
+    "autotest": "grunt autotest",
+    "coverage": "grunt coverage",
+    "cucumberjs": "grunt cucumberjs",
+    "autocucu": "grunt autocucu"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "grunt": "^0.4.5",

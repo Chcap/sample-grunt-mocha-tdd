@@ -1,19 +1,18 @@
-
 const STRIKE = 'X'
 const SPARE = '/'
 const MISS = '-'
 
-function bowling (frames) {
+function bowling(frames) {
     let score = 0;
 
-    function val (launch, prev) {
+    function val(launch, prev) {
         if (!launch || launch === MISS) return 0
         if (launch === STRIKE) return 10
         if (launch === SPARE) return 10 - val(prev)
         return parseInt(launch, 10)
     }
 
-    function getLaunches (index, nbMax = 3) {
+    function getLaunches(index, nbMax = 3) {
         if (nbMax <= 0) {
             return []
         }
@@ -31,7 +30,7 @@ function bowling (frames) {
         return [first, second]
     }
 
-    function addFrameToScore (index) {
+    function addFrameToScore(index) {
         const [first, second, third] = getLaunches(index)
 
         score += val(first)
